@@ -9,15 +9,15 @@ public class App {
         test();
     }
 
-    private static void test() {
-        int index = 0;
-        do {
-            Person person = new Person();
-            person.setName("测试" + index);
-            person.setAge(18 + index * 2);
-            index++;
-            System.out.println(person.toString());
+            private static void test() {
+                int index = 0;
+                do {
+                    Person person = new Person();
+                    person.setName("测试" + index);
+                    person.setAge(18 + index * 2);
+                    index++;
+                    System.out.println(person.toString());
 
-        } while (index < 6);
+                } while (index < 6);
     }
 }
